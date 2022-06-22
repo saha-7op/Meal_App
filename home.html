@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Meal Finder</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!-- font awesome cdn links-->
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1><a href="index.html">Meals App</a></h1>
+
+    <div class="flex">
+                                                        <!--This div is for the Heading & Search bar -->
+        <form class="flex" id="submit">
+
+            <input type="text" id="search" placeholder="Search for a meal">
+
+            <button type="submit" class="search-btn">
+
+                <i class="fas fa-search"></i>                                 <!--Search logo from font awesome-->
+
+            </button>
+
+        </form>
+
+        <button class="random-btn" id="random"> 
+
+            <i class="fas fa-random"></i>                                   <!--Another random search logo from font awesome-->
+
+        </button> 
+
+    </div>
+    
+    <div id="result-heading"></div>                                         <!--After searching result will be shown here -->
+    <div id="meals" class="meals"></div>
+    <div id="single-meal"></div>
+
+</div>
+<script src="script.js"></script>
+<body>
+</html>
